@@ -42,4 +42,15 @@ result2 = greet2('jake')
 print(result2)
 
 print(f'name is {name}, age is {age}')
+print('name is {}, age is {}'.format(name, age))
+print('name is %s, age is %d' %(name, age))
 
+def multi(a,b):
+    print(a*b)
+
+print(multi(4,4))
+
+def greet():
+    print("Hello, World!")
+
+print(greet())
