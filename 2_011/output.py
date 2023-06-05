@@ -15,7 +15,7 @@ print(f'Username : {userName}, Userage : {userAge}')
 
 print(f'Username :\t{userName}, \nUserage : {userAge}')
 
-#########################################
+print('-'*40)
 
 width = int(input('밑변길이 : '))
 height = int(input('높이길이 : '))
@@ -25,7 +25,7 @@ triangle = width * height / 2
 print(f'밑변 : {width}, 높이 : {height}, 넓이(삼각) : {triangle}')
 
 #2
-print('밑변 : ',width, end='')
-print(', 높이 : ',height, end='')
-print(', 넓이(삼각) : ',triangle)
+print('밑변 :',width, end='')
+print(', 높이 :',height, end='')
+print(', 넓이(삼각) :',triangle)
 

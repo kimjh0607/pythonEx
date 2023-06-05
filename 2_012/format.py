@@ -4,7 +4,7 @@ format() 함수
 
 userName = 'jay lee'
 userAge = 23
-print('User name : {}'.format(userName)) #중괄호{}안에 userName변수를 넣어주겠다. 라는 느낌
+print('User name : {}'.format(userName)) #중괄호{}안에 userName변수를 넣겠다.
 print('User age : {}'.format(userAge))
 
 print('User name : {}, User age : {}'.format(userName, userAge)) #변수가 {}안에 순차적으로 들어감
@@ -33,10 +33,10 @@ radius = float(input('반지름 입력 : ')) #입력받는 값을 담아두는 �
 pi = float(input('원주율 입력 : '))
 cwidth = radius * radius * pi
 
-print('radius : %f' %radius)
-print('pi : %f' %pi)
-print('width : %f' %cwidth)
-print('='*40)
+print('반지름 : %f' %radius)
+print('원주율 : %f' %pi)
+print('원의 넓이 : %f' %cwidth)
+print('='*30)
 print('radius : %.0f, pi : %f' %(radius, pi))
 print('radius : %.2f, pi : %.4f' %(radius, pi))
 print('radius : %.2f, pi : %.2f' %(radius, pi))
